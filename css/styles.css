@@ -1,0 +1,78 @@
+body {
+    
+}
+nav .nav-logo {
+ 
+}
+
+.experience{
+    padding-left: 2rem;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.1em;
+}
+
+tr[class^="SCHOLARSHIP"] 
+{        
+   background: yellow;  
+}
+
+tr[class$="PLACEMENT"] 
+{      
+   font-style: italic;
+   background-color: aqua; 
+}
+
+tr[class*="HOSTEL"] 
+{        
+  font-weight: bold;
+  color: brown;
+} 
+
+section~ul
+{
+   background: blue;
+   border-radius: 20px;
+}
+
+ul li:first-of-type
+{
+  background-color: blueviolet;
+}
+
+ul li:last-of-type
+{
+  background-color: orange;
+}
+
+ul li:nth-child(2) {
+    color: white;
+    background-color: chartreuse;
+}
+
+ul li:nth-last-child(2) {
+    color: rgb(167, 9, 140);
+    background-color: rgb(192, 195, 22);
+}
+
+section ul:only-of-type {
+    background-color: indianred;
+    font-weight: bold;
+}
+
+table tr:nth-of-type(2)
+{
+  font-style: italic;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}  
+
+
+
+
+
+
+
